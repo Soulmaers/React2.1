@@ -1,12 +1,11 @@
 
 import React from 'react'
-import Portfolio from './components/Portfolio'
+import Portfolio from './components/Portfolio.js'
 import './App.css';
 
-function App() {
-  return
-  <Portfolio />
+export default function App() {
+  return <Portfolio />
 
 }
 
-export default App;
+

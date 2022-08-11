@@ -1,7 +1,7 @@
 import React from 'react'
-import Toolbar from './Toolbar'
-import ProjectList from './ProjectList'
-import Project from './Project'
+import Toolbar from './Toolbar.js'
+import ProjectList from './ProjectList.js'
+import project from './project.js'
 import { useState } from 'react'
 
 export default function Portfolio() {
@@ -14,7 +14,7 @@ export default function Portfolio() {
     return (
         <div className='portfolio'>
             <Toolbar filters={filters} selected={selected} onSelectFilter={onSelectFilter} />
-            <ProjectList selected={selected} project={Project} />
+            <ProjectList selected={selected} projectsItem={project} />
         </div>
     )
 
