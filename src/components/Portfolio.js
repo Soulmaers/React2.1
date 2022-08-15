@@ -1,7 +1,7 @@
 import React from 'react'
 import Toolbar from './Toolbar.js'
 import ProjectList from './ProjectList.js'
-import project from './project.js'
+import project from './Project.js'
 import { useState } from 'react'
 
 export default function Portfolio() {
